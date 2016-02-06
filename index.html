@@ -5,11 +5,13 @@ width: 100%;
 overflow:hidden;
 }
 </style>
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+ <script type="text/javascript" src="./jquery.photoset-grid.min.js.js"></script>
 
 <img class="full-size" src="http://i.imgur.com/y34LDeq.jpg"></img>
 
 <style>
-.onethree {
+.what {
 width:32.7%;
 height:30vh;
 display:inline-block;
@@ -17,6 +19,7 @@ overflow: hidden;
 }
 </style>
 
+<div class="photoset-grid" data-layout="233">
 <img class="onethree" src="http://i.imgur.com/DQ5knOo.jpg"></img>
 
 <img class="onethree" src="http://i.imgur.com/0XNZzOD.jpg"></img>
@@ -30,7 +33,10 @@ overflow: hidden;
 <img class="onethree" src="http://i.imgur.com/HVhnYgt.jpg"></img>
 
 <img class="onethree" src="http://i.imgur.com/my2Dq90.jpg"></img>
-
+</div>
 Love Struck 2016 is all about experiencing God's love through community <i> ~ Anthony Briggs</i><br> <br>
 
 This site is being actively developed by Andrew Wiik, please report any issues or concerns to andrew.wiik@vtsd.com .
+<script>
+$('.photoset-grid').photosetGrid();
+</script>
